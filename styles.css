@@ -1,0 +1,109 @@
+body{
+    color: rgb(39, 38, 38);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, arial;
+    font-size: 0.9em;
+}
+
+.head-faq{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    padding: 0px;
+    margin: 0px;
+}
+
+.head-faq{
+    padding: 40px 0 40px 0;
+}
+
+.head-faq > p{
+    line-height: 0;
+}
+
+ul, ol{
+    line-height: 2;
+}
+
+ol{
+    padding-left: 17px;
+}
+
+ul{
+    padding-left: 13px;
+}
+
+span{
+    font-weight: bold;
+}
+
+hr{
+    color: beige;
+}
+
+.question{
+    background-color: rgb(248, 253, 253);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0px;
+}
+
+
+@media screen and (min-width: 1280px){
+    .content{
+        width: 100%;
+    }
+    .question{
+        padding-left: 25%;
+    }
+    
+    hr{
+        width: 65%;
+    }
+
+    p{
+        line-height: 3;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .question{
+        padding-left: 15%;
+    }
+
+    hr{
+        width: 80%;
+    }
+
+    p{
+        line-height: 2.5;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    body{
+        font-size: 0.7em;
+    }
+
+    .head-faq{
+        text-align: center;
+    }
+
+    .question{
+        padding-left: 30px;
+    }
+
+    hr{
+        width: 100%;
+    }
+
+    p{
+        line-height: 2;
+    }
+}
